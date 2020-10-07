@@ -1,0 +1,21 @@
+{
+    "name": "brew1v",
+    "description": "Brewery controller and dashboard",
+    "version": "0.0.1",
+    "dependencies": {
+        "material-design-icons": "^3.0.1",
+        "node-red-contrib-brewfather": "1.1.1",
+        "node-red-contrib-influxdb": "0.4.1",
+        "node-red-contrib-moment": "4.0.0",
+        "node-red-contrib-sensor-ds18b20": "0.1.0",
+        "node-red-dashboard": "2.23.4",
+        "node-red-node-pi-gpio": "1.2.0",
+        "node-red-node-smooth": "0.1.2"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "flow.json",
+            "credentialsFile": "flow_cred.json"
+        }
+    }
+}
