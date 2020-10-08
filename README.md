@@ -19,4 +19,4 @@ Currently implementing Brewfather batch recipe import and mash step automation.
 
 ### Screenshots
 
-[Main Dashboard](images/main.png)
+![Main Dashboard](image/main.png?raw=true "main")
